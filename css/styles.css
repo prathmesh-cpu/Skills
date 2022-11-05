@@ -1,0 +1,216 @@
+/*      Hare Krishna Hare Krishna
+        Krishna Krishna Hare Hare
+        Hare Ram Hare Ram
+        Ram Ram Hare Hare            */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+::selection {
+    background-color: #E0EBE8;
+    color: #40514E;
+}
+
+/* Icon & Navigations */
+
+.header {
+    background-color: #E0EBE8;
+    position: relative;
+    z-index: 1;
+    padding: 56px;
+}
+
+#logo {
+    width: 4.5rem;
+    border-radius: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 28px;
+    left: 158px;
+}
+
+.header li {
+    list-style-type: none;
+    float: left;
+    margin: 0 30px;
+}
+
+.header ul {
+    position: absolute;
+    right: 158px;
+    top: 35px;
+}
+
+.header ul #home {
+    color: #45b29a;
+}
+
+.header a {
+    display: inline-block;
+    color: #40514E;
+    font-size: 1.1rem;
+}
+
+/* Top Container */
+
+.top-container {
+    background-color: #E0EBE8;
+    position: relative;
+    padding-top: 50px;
+}
+
+#heading {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #4bb09a;
+}
+
+#heading:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+#sub-heading {
+    font-size: 1.575rem;
+    margin: 0;
+    color: #4bb09a;
+    font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: normal;
+}
+
+#cloud-1 {
+    position: absolute;
+    top: 0;
+    right: 250px;
+    opacity: 0.5;
+}
+
+#cloud-2 {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    opacity: 0.5;
+}
+
+/* Middle Container */
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.intro {
+    margin: 100px;
+}
+
+#profile {
+    width: 10rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #45b29a;
+    font-weight: normal;
+}
+
+p {
+    line-height: 2;
+}
+
+#intro {
+    width: 35%;
+    margin: auto;
+}
+
+hr {
+    border: 6px dotted #36CCAF;
+    width: 5%;
+    border-bottom: none;
+}
+
+.skills {
+    margin: 100px auto;
+}
+
+.skills-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+h3 {
+    color: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#computer-img {
+    width: 10rem;
+    border-radius: 100%;
+    border: 5px solid #36CCAF;
+    float: left;
+    margin-right: 1.875rem;
+}
+
+#skill-2 {
+    overflow: auto;
+}
+
+#video-img {
+    width: 10rem;
+    border-radius: 100%;
+    float: right;
+}
+
+/* Bottom Container */
+
+.bottom-container {
+    margin: 100px auto;
+    padding-bottom: 70px;
+}
+
+#button {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    margin: 100px;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: #44b29a;
+    border-radius: 0.5rem;
+}
+
+#button:hover {
+    background-color: #3ea08a;
+}
+
+/* Footer */
+
+.footer {
+    margin: 100px auto 0 auto;
+    background-color: #66bfbf;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.fa-brands {
+    margin: 0 30px;
+    font-size: 1.875rem;
+    padding: 10px;
+    color: #297c7c;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1);
+}
+
+#copy {
+    margin-bottom: 0;
+    color: #d4ffff;
+    font-size: 1rem;
+}
